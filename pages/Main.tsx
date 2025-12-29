@@ -80,7 +80,7 @@ const Main: React.FC = () => {
             <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="relative group overflow-hidden rounded-3xl">
                 <img
-                  src="https://drive.google.com/thumbnail?id=1GhF3l0MbZ6N19IZT9ashFkmZx3hZePsU&sz=w1600&v=1"
+                  src="/images/화면 캡처 2025-02-24 121821.jpg"
                   alt="제빙기 3단계 안심케어"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
@@ -91,7 +91,7 @@ const Main: React.FC = () => {
               </div>
               <div className="relative group overflow-hidden rounded-3xl">
                 <img
-                  src="https://drive.google.com/thumbnail?id=1mm8lcWfA64OmmviDripAS93knEFzPMfB&sz=w2000"
+                  src="/images/화면 캡처 2025-02-16 001820.jpg"
                   alt="에어컨 완전분해 고압세척"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   loading="lazy"
