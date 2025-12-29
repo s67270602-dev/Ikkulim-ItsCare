@@ -168,11 +168,19 @@ const Footer: React.FC = () => {
                 </div>
                 <span className="text-sm">부산·양산·울산 전 지역 출장 서비스</span>
               </li>
-              <li className="flex items-center gap-4">
-                <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center flex-shrink-0 text-xs text-[#4FB3D9]">
-                   <i className="fas fa-phone-alt"></i>
+              <li className="flex flex-col gap-2 ml-12">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center flex-shrink-0 text-xs text-[#4FB3D9]">
+                    <i className="fas fa-phone-alt"></i>
+                  </div>
+                  <span className="font-black text-white text-lg">1577-7672</span>
                 </div>
-                <span className="font-black text-white text-lg">1577-7672</span>
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center flex-shrink-0 text-xs text-[#4FB3D9]">
+                    <i className="fas fa-mobile-alt"></i>
+                  </div>
+                  <span className="font-bold text-gray-300">010-7711-8950</span>
+                </div>
               </li>
               <li className="flex items-center gap-4">
                 <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center flex-shrink-0 text-xs text-[#4FB3D9]">

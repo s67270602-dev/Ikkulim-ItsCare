@@ -36,11 +36,13 @@ const About: React.FC = () => {
             <div className="lg:w-1/2 relative">
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
               <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-cyan-50 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-2000"></div>
-              <img 
-                src={IMAGES.ULSAN_CITY} 
-                alt="Professional Team" 
-                className="relative z-10 rounded-[3rem] shadow-2xl border-8 border-white object-cover aspect-[4/3]" 
-              />
+              <div className="relative z-10 bg-white rounded-[3rem] shadow-2xl p-8 md:p-12 border border-gray-100">
+                <img 
+                  src="/images/logopolly_1000x1000_nbg.png" 
+                  alt="ItsCare Logo" 
+                  className="w-full h-auto max-w-[400px] mx-auto object-contain" 
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -53,7 +55,7 @@ const About: React.FC = () => {
             {[
               { label: "누적 세척 실적", value: "2,000+", suffix: "대 이상", icon: "fa-check-circle" },
               { label: "평균 경력", value: "10", suffix: "년 경력", icon: "fa-award" },
-              { label: "동남권 파트너", value: "500+", suffix: "개소", icon: "fa-handshake" },
+              { label: "동남권 파트너", value: "10+", suffix: "개소", icon: "fa-handshake" },
               { label: "재방문/정기관리", value: "95", suffix: "% 이상", icon: "fa-sync-alt" }
             ].map((stat, idx) => (
               <div key={idx} className="bg-white p-8 rounded-3xl text-center shadow-sm hover:shadow-md transition-shadow border border-gray-100">

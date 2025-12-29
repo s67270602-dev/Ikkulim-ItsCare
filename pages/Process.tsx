@@ -45,18 +45,13 @@ const Process: React.FC = () => {
                     </div>
                   ))}
                 </div>
-                <div>
-                  <img src={IMAGES.ICE_MAKER} alt="Process Detail" className="rounded-3xl shadow-xl" />
-                  <div className="mt-6 flex gap-4">
-                     <div className="flex-1 h-32 bg-gray-200 rounded-xl overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1GhF3l0MbZ6N19IZT9ashFkmZx3hZePsU&sz=w2000
-
-" className="w-full h-full object-cover" />
-                     </div>
-                     <div className="flex-1 h-32 bg-gray-200 rounded-xl overflow-hidden">
-                        <img src="https://drive.google.com/thumbnail?id=1VpID-xAbBGbLEZg6f301H4OJrYE-Ltch&sz=w2000
-" className="w-full h-full object-cover" />
-                     </div>
+                <div className="relative group">
+                  <div className="overflow-hidden rounded-3xl shadow-2xl bg-white p-2">
+                    <img 
+                      src="/images/화면 캡처 2025-02-24 121821.jpg" 
+                      alt="Ice Maker Process Detail" 
+                      className="w-full rounded-2xl transition-transform duration-500 group-hover:scale-105" 
+                    />
                   </div>
                 </div>
               </div>
@@ -69,9 +64,12 @@ const Process: React.FC = () => {
                 <h2 className="text-3xl font-black text-gray-900">에어컨 완전 분해 고압 세척</h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div className="order-2 md:order-1">
-                  <img src="https://drive.google.com/thumbnail?id=1mm8lcWfA64OmmviDripAS93knEFzPMfB&sz=w2000"
- alt="AC Process" className="rounded-3xl shadow-xl" />
+                <div className="order-2 md:order-1 overflow-hidden rounded-3xl shadow-2xl bg-white p-2">
+                  <img 
+                    src="/images/화면 캡처 2025-02-16 003109.jpg"
+                    alt="AC Process Detail" 
+                    className="w-full rounded-2xl hover:scale-105 transition-transform duration-500" 
+                  />
                 </div>
                 <div className="grid grid-cols-1 gap-6 order-1 md:order-2">
                   {acSteps.map((step, idx) => (
