@@ -130,7 +130,7 @@ const Contact: React.FC = () => {
               <span className="flex items-center gap-1 text-[#0069D9]">
                 <i className="fas fa-check-circle"></i> 울산 전 지역
               </span>
-              <span className="ml-2 font-black text-gray-800">무료 방문 견적 서비스 진행 중</span>
+              <span className="ml-2 font-black text-gray-800">업소용제빙기 무료방문점검 진행중</span>
             </p>
           </div>
         </div>
