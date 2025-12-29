@@ -10,7 +10,7 @@ const Main: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <img
             src="/images/홈화면.jpg"
-            alt="Hero Background"
+            alt="홈화면"
             className="w-full h-full object-cover transform scale-105"
             loading="eager"
           />
