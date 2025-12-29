@@ -9,7 +9,7 @@ const Main: React.FC = () => {
       <section className="relative h-[90vh] flex items-center text-white overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://drive.google.com/thumbnail?id=13VUrHj_0rwH6juDLO0Q4HBckXC8dLHfz&sz=w2000&v=1"
+            src="/images/홈화면.jpg"
             alt="Hero Background"
             className="w-full h-full object-cover transform scale-105"
             loading="eager"
